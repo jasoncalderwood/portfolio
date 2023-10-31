@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.outer {
+background-image:url(microsoft-paint.png);
+width:auto;
+height: auto;
+background-size: 100%;
+background-repeat: no-repeat;
+position:fixed;
+}
+
+.inner {
+position:relative;
+padding-left: 55px;
+padding-top: 26px;
+padding-bottom: 131px;
+
+
+}

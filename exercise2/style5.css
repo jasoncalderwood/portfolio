@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-wrap:nowrap;
+    font-size: 200px;
+    letter-spacing: -50px;
+    line-height: 50%;
+}
+
+span{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+br {
+    display: block; 
+    content: "";
+    margin-top: 150px; 
+  }
+
+.home-button {
+    position:fixed;
+    display: inline-block;
+    margin-top:520px;
+}
+.home-button .hm-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.home-button:hover .hm-top {
+    display: inline;
+}
+
+.home-button:hover .hm-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}

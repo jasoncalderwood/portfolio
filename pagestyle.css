@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'VT323', monospace;
+}
+
+.entry {
+    margin:25px;
+    background-color: rgb(213, 213, 213);
+}
+
+.home-button {
+    position:fixed;
+    display: inline-block;
+    margin-top:520px;
+}
+.home-button .hm-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.home-button:hover .hm-top {
+    display: inline;
+}
+
+.home-button:hover .hm-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.weekly {
+    position:absolute;
+    display: inline-block;
+    margin-left:500px;
+    margin-top:25px;
+}
+.weekly .wk-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.weekly:hover .wk-top {
+    display: inline;
+}
+
+.weekly:hover .wk-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.exercises {
+    position:absolute;
+    display: inline-block;
+    margin-left:180px;
+    margin-top:320px;
+}
+
+.exercises .ex-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.exercises:hover .ex-top {
+    display: inline;
+}
+
+.exercises:hover .ex-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.art {
+    position:absolute;
+    display: inline-block;
+    margin-left:820px;
+    margin-top:320px;
+}
+
+.art .art-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.art:hover .art-top {
+    display: inline;
+}
+
+.art:hover .art-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.gallery {
+    text-align: center;
+}

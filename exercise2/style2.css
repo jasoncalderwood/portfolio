@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 10;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 25px;
+    background-color: white;
+}
+
+br {
+  display: block; 
+  content: "";
+  margin-top: 150px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    width: 200px;
+    height: 130px;
+    margin: 0;
+  }
+  
+  .dropdown2 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+    display: block;
+    width: 120px;
+    height: 150px;
+
+  }
+  .dropdown3 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown3:hover .dropdown-content3 {
+    display: block;
+    width:auto;
+    height:150px;
+
+  }
+
+  .dropdown4 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown4:hover .dropdown-content4 {
+    display: block;
+    width:auto;
+    height:150px;
+
+  }
+
+  
+  .dropdown5 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .dropdown5:hover .dropdown-content5 {
+    display: block;
+    width:auto;
+    height:auto;
+
+  }
+
+  
+  .dropdown6 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .dropdown6:hover .dropdown-content6 {
+    display: block;
+    width:auto;
+    height:auto;
+
+  }
+
+  
+  .dropdown7 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content7 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .dropdown7:hover .dropdown-content7 {
+    display: block;
+    width:auto;
+    height:150px;
+
+  }
+
+   
+  .dropdown8 {
+    position: relative;
+    display: inline-block;
+    color: red;
+  }
+  
+  .dropdown-content8 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .dropdown8:hover .dropdown-content8 {
+    display: block;
+    width:auto;
+    height:150px;
+
+  }
+
+  a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(177, 33, 33);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 0, 0);
+  }
+
+  .home-button {
+    position:fixed;
+    display: inline-block;
+    margin-top:520px;
+}
+.home-button .hm-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.home-button:hover .hm-top {
+    display: inline;
+}
+
+.home-button:hover .hm-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}

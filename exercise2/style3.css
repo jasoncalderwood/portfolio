@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(flyheart.gif);
+    background-color: white;
+    font-size: 12px;
+    font-family:'Times New Roman', Times, serif
+}
+
+br {
+    display: block; 
+    content: "";
+    margin-top: 150px; 
+  }
+
+.first {
+    padding-left: 165px;
+}
+
+.second {
+    padding-left: 410px;
+    
+}
+
+.third {
+    padding-left: 700px;
+    padding-top:40px;
+}
+
+.fourth {
+    padding-left: 960px;
+    padding-top:60px;
+}
+
+.kicker {
+    padding-left: 1245px;
+    padding-top: 150px;
+    text-shadow: 1px 1px red;
+    font-weight:bolder;
+}
+
+a:link {
+    color: black;
+    text-shadow: 1px 1px red;
+    font-weight:bolder;
+}
+  
+.home-button {
+    position:fixed;
+    display: inline-block;
+    margin-top:520px;
+}
+.home-button .hm-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.home-button:hover .hm-top {
+    display: inline;
+}
+
+.home-button:hover .hm-bot {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+  
