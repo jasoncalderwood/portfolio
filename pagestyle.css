@@ -122,3 +122,7 @@ body {
 .gallery {
     text-align: center;
 }
+
+#myContainer {
+    z-index: 0;
+}
