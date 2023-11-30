@@ -1,16 +1,19 @@
+
+
 function setup() {
-    let myCanvas = createCanvas(1335, 635);
+    let myCanvas = createCanvas(1335, 640);
     myCanvas.parent('myContainer');
     background(255);
+    
+   
+    
     
 }
 
 function draw() {
-    let penColorR = 0;
-    let penColorG = 0;
-    let penColorB = 0;
-    stroke(penColorR, penColorG, penColorB);
+    stroke(0);
     strokeWeight(1);
     if (mouseIsPressed === true) {
       line(mouseX, mouseY, pmouseX, pmouseY);
     }}
+    
